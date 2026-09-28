@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  whatsapp-bot:
+    build: .
+    container_name: bmx_raffle_bot
+    restart: always
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+      - TOTAL_TICKETS=25
+      - TICKET_PRICE=100
+    volumes:
+      - ./session_data:/app/.wwebjs_auth
+    ports:
+      - "3000:3000"

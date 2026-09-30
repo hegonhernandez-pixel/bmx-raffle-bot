@@ -5,8 +5,8 @@ echo "🚀 Iniciando despliegue del bot de rifa BMX GTI..."
 # 1. Verificar variables de entorno
 if [ ! -f .env ]; then
   echo "⚠️ Archivo .env no encontrado. Creando plantilla..."
-  echo "SUPABASE_URL=tu_supabase_url" > .env
-  echo "SUPABASE_KEY=tu_supabase_key" >> .env
+  echo "SUPABASE_URL=https://supabase.com/dashboard/org/vercel_icfg_wkDykoXqm0byqCTtUasqwnxz" > .env
+  echo "SUPABASE_KEY=sb_publishable__OW4JL0boicy6Ng5jeuw0w_bvAJivDQ" >> .env
   echo "Por favor edita el archivo .env con tus credenciales antes de continuar."
   exit 1
 fi

@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "🚀 Iniciando despliegue del bot de rifa BMX GTI..."
 
 # 1. Verificar variables de entorno

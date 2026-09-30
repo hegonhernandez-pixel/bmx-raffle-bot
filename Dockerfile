@@ -24,7 +24,7 @@
     # Used to specify an alternative mirror to download Node.js binaries from
     mirror: # optional
     # The token used as Authorization header when fetching from the mirror
-    mirror-token: # optionalFROM node:20-slim
+    mirror-token: # optionalFROM node:24-slim
 
 # Instalar dependencias para Chromium y soporte de WhatsApp Web
 RUN apt-get update && apt-get install -y \

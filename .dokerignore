@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.git
+.github
+session_data
+.wwebjs_auth
+.env
+.env.*
